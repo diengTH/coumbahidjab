@@ -1,0 +1,306 @@
+/*géneral*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial,  sans-serif;
+    font-size: 15px;
+}
+.milieu{
+    width: 700px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+a{
+    text-decoration: none;
+    color:white;
+
+}
+ul{
+    list-style: none;
+
+}
+    
+/*header*/
+header{
+    height: 120px;
+    background-color: black;
+    opacity: 0.4;
+}
+nav{
+    float: right;
+    margin-top: 35px;
+}
+img{
+    float: left;
+    margin-top: 32px;
+}
+header nav li{
+    display: inline-block;   /*permet d'aligner les meunu vertical*/
+    margin-right: 15px;
+  
+}
+header nav  li a{
+      text-transform: uppercase; /*transforme un texte en majuscule*/
+       font-size: 12px;
+
+      
+}
+header nav  li a:hover{
+    background-color: #49535b;
+       border: 1px solid #4bcaff;
+       height: 25px;
+}
+
+.section1{
+    height: 580px;
+    background-image: url(header.jpg);
+}
+.section1 h2{
+     text-align: center;
+     font-family: initial;
+     font-size: 30px;
+     padding: 200px 0 45px 0;
+     text-transform: uppercase;
+     
+}
+.ombre{
+    margin-left: 8%;
+    margin-top: -111px;
+    height: 25px;
+    width: 590px;
+   
+    background-color: black;
+    opacity: 0.4;
+}
+.ombrre{
+    margin-left: 8%;
+    margin-top: 13px;
+    height: 25px;
+    width: 590px;
+   
+    background-color: black;
+    opacity: 0.4;
+}
+/*section2*/
+
+.section2 .milieu ul{
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.section2 .milieu ul li {
+    width: 150px;
+    font-size: 10PX;
+    padding-top: 35px;
+    
+}
+h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+p{
+    line-height: 15px;
+}
+.section2{
+    background-color: #4bcaff;
+    min-height: 350px;
+    position: relative;
+}
+.icone1 img{
+     
+}
+hr{
+    width: 10px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-top: 15px;
+}
+/*section3*/
+.section3{
+    min-height: 350px;
+}
+.port li a{
+    float: right;
+    padding: 13px;
+    color: black;
+}
+.port li a:hover{
+    background-color: white;
+    border: 1px solid #4bcaff;
+}
+.por{
+    padding-top: 70px;
+}
+.port{
+    margin-top: -40px;
+}
+.box1{
+    position: relative;
+    width: 150px;
+    height: 90px;
+    background-color: black;
+    margin: 8px;
+    box-sizing: border-box;
+
+}
+.box{
+   margin: 70px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.image{
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    height: 88px;
+    top: -30px;
+}
+.box1:hover{
+    background-color: black;
+    opacity: 0.5;
+
+
+}
+/*section4*/
+.section4{
+    background-color: #515f67;
+    min-height: 300px;
+}
+.section41 .section42 p{
+    width: 350px;
+}
+.section41{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+}
+video{
+    height: 200px;
+    width: 330px;
+}
+input{
+    background-color: #515f67;
+    color: #353f46;
+    border: 2px solid #353f46;
+    height: 35px;
+    width: 100px;
+}
+/*section*/
+.section5{
+     min-height: 150px;
+     background-color: #4bcaff;
+}
+.section5 .milieu .section51{
+      padding-top: 25px;
+
+}
+.section51  i{
+    color: white;
+    margin-left: 85%;
+}
+/*section6*/
+.section6{
+    position: absolute;
+    width: 100%;
+}
+
+.section6 img{
+    margin-top: 0px;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+/*section7*/
+.section71{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+}
+.section72 p{
+    width: 300px;
+    
+}
+.section73 p{
+    padding-top: 20px;
+    width: 300px;
+    
+}
+.section7{
+    min-height: 300px;
+}
+
+.section73 i{
+    color: black;
+    width: 25px ;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+/*section8*/
+.section8{
+    min-height: 150px;
+}
+.section81 h2{
+    text-align: left;
+}
+.section81{
+    padding-top: 15px;
+    text-align: center;
+}
+.walter{
+    text-align: left;
+    color: #4bcaff;
+    font-size: 8px;
+}
+/*footer*/
+.section9 {
+    position: absolute;
+    width: 100%;
+
+}
+.section9 img {
+    position: relative;
+    width: 100%;
+    
+}
+/*section*/
+.section10{
+    margin-top: 50px;
+    position: relative;
+}
+.section10 .milieu h2{
+    color: white;
+}
+.section101{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+.section103 {
+    color: white;
+    width: 300px;
+    margin-right: 50%;
+}
+.section102 input{
+   width: 300px;
+   background-color: transparent;
+   border :2px solid white;
+   line-height: 50px;
+}
+label{
+    color: white;
+    font-size: 10px;
+}
+.mess{
+    width: 700px;
+    height: 150px;
+    background-color: transparent;
+    border :2px solid white;
+
+
+}
